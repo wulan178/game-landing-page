@@ -200,6 +200,10 @@ footer li {
 @media (min-width: 320px) and (max-width: 600px) {
     
     /* NAVBAR */
+    
+    nav {
+        padding: 0 1vw;
+    }
 
     nav .btnPrimary {
         margin-top: 3vh;
