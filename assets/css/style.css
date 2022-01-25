@@ -369,6 +369,7 @@ footer li {
     
     footer {
         padding: 4vh 4vw;
+        padding-bottom: 0;
     }
 
     footer p {
@@ -379,11 +380,16 @@ footer li {
     footer .socmed {
         margin-bottom: 3vh;
     }
+
+    footer .copyright {
+        padding: 3vh 0;
+    }
     
     /* Contact us */
     
     .contact-us {
         padding: 4vh 4vw;
+        padding-bottom: 0;
     }
 
     .contact-us h2 {
@@ -408,6 +414,10 @@ footer li {
     .contact-us .socmed {
         margin: auto;
         margin-bottom: 3vh;
+    }
+
+    .contact-us .socmed a {
+        
     }
     
     .contact-us .phone {
