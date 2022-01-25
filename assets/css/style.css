@@ -164,10 +164,6 @@ body::-webkit-scrollbar {
 
 /* FOOTER */
 
-footer {
-
-}
-
 footer p {
     font-size: 16px;
     line-height: 24px;
@@ -222,8 +218,8 @@ footer li {
     }
 
     .hero h1 {
-        line-height: 58px;
-        font-size: 42px;
+        line-height: 70px;
+        font-size: 44px;
         width: 100%;
     }
 
