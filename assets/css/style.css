@@ -218,7 +218,7 @@ footer li {
     /* HERO */
     
     .hero {
-        padding: 4vh 3vw;
+        padding: 4vh 4vw;
     }
 
     .hero h1 {
@@ -249,13 +249,15 @@ footer li {
     /* TREND */
 
     .trend {
-        padding: 4vh 3vw;
+        padding: 4vh 4vw;
         text-align: center;
     }
 
     .trend h2 {
         line-height: 35px;
         margin-bottom: 4vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .trend .btnTrend {
@@ -268,13 +270,13 @@ footer li {
     }
 
     .trend-img {
-        width: 90vw;
+        width: 92vw;
     }
 
     /* SERVICES */
 
     .services {
-        padding: 4vh 3vw;
+        padding: 4vh 4vw;
     }
 
     .services-hero {
@@ -290,7 +292,7 @@ footer li {
     /* TESTIMONIAL */
     
     .testimonial {
-        padding: 4vh 3vw;
+        padding: 4vh 4vw;
     }
     
     .testimonial h2 {
