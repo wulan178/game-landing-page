@@ -280,7 +280,7 @@ footer li {
     }
 
     .services-hero {
-        max-width: 94vw;
+        max-width: 92vw;
         margin-bottom: 3vh;
     }
 
@@ -296,50 +296,38 @@ footer li {
     }
     
     .testimonial h2 {
-        font-size: 35px;
-        line-height: 50px;
-        width: 450px;
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 90vw;
     }
     
     .testimonial .testimonial-desc {
-        width: 500px;
+        max-width: 90vw;
+    }
+
+    .testimonial .card.hidden  {
+        display: none;
     }
     
     .testimonial .card {
-        padding: 30px;
-        border-radius: 10px;
-        height: 240px;
+        padding: 5%;
+        margin-top: 2vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
     }
-    
-    .testimonial .card.active {
-        background: #0F0901;
-        border: 2px solid var(--primary);
-    }
-    
+
     .testimonial h5 {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 16px;
     }
-    
-    .testimonial .carousel-control-next  img {
-        background: var(--primary);
-        padding: 21px;
-        border-radius: 50%;
-    }
-    
+
     .testimonial .carousel-controls {
-        width: 7%;
-        margin-left: 90%;
-        margin-top: 8%;
+        display: none;
     }
     
     .testimonial .carousel-indicators {
-        width: max-content;
-    }
-    
-    .testimonial .carousel-indicators button {
-        width: 15px;
-        height: 15px;
+        margin: 2vh auto;
     }
     
     /* SUBSCRIBE */
