@@ -207,6 +207,7 @@ footer li {
 
     nav .btnPrimary {
         margin-top: 3vh;
+        padding: 2% auto;
     }
 
     .navbar-toggler {
@@ -229,8 +230,8 @@ footer li {
     }
 
     .hero h1 {
-        line-height: 67px;
-        font-size: 44px;
+        line-height: 60px;
+        font-size: 45px;
         width: 100%;
     }
 
