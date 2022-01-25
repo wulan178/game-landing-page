@@ -362,13 +362,17 @@ footer li {
     
     /* FOOTER */
     
+    footer {
+        padding: 4vh 4vw;
+    }
+
     footer p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 22px;
     }
     
     footer li {
-        line-height: 29px;
+        
     }
     
     
@@ -399,18 +403,17 @@ footer li {
 
     .contact-us .socmed {
         margin: auto;
+        margin-bottom: 4vh;
     }
     
     .contact-us .phone {
         border-left: none;
         border-right: none;
-        margin: 3vh auto;
-        height: 15vh;
+        margin-bottom: 4vh;
     }
-
-    .contact-us .phone img {
-        width: 30px;
-        height: 30px;
+    
+    .contact-us .location {
+        margin-bottom: 2vh;
     }
 
     .contact-us .d-flex {
