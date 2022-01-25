@@ -370,11 +370,10 @@ footer li {
         font-size: 14px;
         line-height: 22px;
     }
-    
-    footer li {
-        
+
+    footer .socmed {
+        margin-bottom: 3vh;
     }
-    
     
     /* Contact us */
     
