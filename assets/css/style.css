@@ -201,6 +201,10 @@ footer li {
     
     /* NAVBAR */
     
+    nav {
+        padding: 1vh 1vw;
+    }
+
     .navbar-toggler {
         z-index: 2;
     }
