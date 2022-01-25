@@ -188,6 +188,9 @@ footer li {
 
 .contact-us .phone {
     min-height: 100px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 100%;
 }
 
 
@@ -218,7 +221,7 @@ footer li {
     }
 
     .hero h1 {
-        line-height: 70px;
+        line-height: 67px;
         font-size: 44px;
         width: 100%;
     }
@@ -307,7 +310,7 @@ footer li {
     
     .testimonial .card {
         padding: 5%;
-        margin-top: 2vh;
+        margin: 2vh 0;
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
@@ -323,49 +326,37 @@ footer li {
     }
     
     .testimonial .carousel-indicators {
-        margin: 2vh auto;
+        margin: auto;
     }
     
     /* SUBSCRIBE */
     
     .subscribe {
-        background-color: #1C140F;
+        background-color: #1B1B1B;
+        padding: 4vh 4vw;
     }
     
     .subscribe .row {
-        border-radius: 15px;
-        background-color: #1B1B1B;
-        margin-top: 74px;
+        margin-top: 4vh;
     }
     
     .subscribe h4 {
-        font-size: 30px;
+        font-size: 26px;
     }
     
     .subscribe p {
-        font-size: 17px;
-        line-height: 25px;
+        font-size: 14px;
     }
     
     .subscribe-form {
-        width: 75%;
+        width: 100%;
+        margin-top: 2vh;
     }
-    
-    .subscribe-form input {
-        border-radius: 8px;
-        height: 48px;
-    }
-    
-    .subscribe-form button {
-        margin-left: auto;
-        border-radius: 8px;
-    }
+
+
+
     
     /* FOOTER */
-    
-    footer {
-    
-    }
     
     footer p {
         font-size: 16px;
@@ -379,18 +370,47 @@ footer li {
     
     /* Contact us */
     
+    .contact-us {
+        padding: 4vh 4vw;
+    }
+
     .contact-us h2 {
-        font-size: 33px;
-        line-height: 56px;
+        font-size: 28px;
+        line-height: 40px;
     }
     
     .contact-us p {
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contact-us .global {
+        max-width: 90vw;
+        margin: 2vh auto;
+    }
+
+    .contact-us .row {
+        margin-top: 4vh;
+    }
+
+    .contact-us .socmed {
+        margin: auto;
     }
     
     .contact-us .phone {
-        min-height: 100px;
+        border-left: none;
+        border-right: none;
+        margin: 3vh auto;
+        height: 15vh;
+    }
+
+    .contact-us .phone img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-us .d-flex {
+        flex-direction: column;
     }
 
 }
