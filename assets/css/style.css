@@ -202,11 +202,11 @@ footer li {
     /* NAVBAR */
     
     nav {
-        padding: 1vh 1vw;
+        padding: auto 1vw;
     }
 
     nav .btnPrimary {
-        margin-top: 3vh;
+        margin-top: 2vh;
         padding: 2% auto;
     }
 
