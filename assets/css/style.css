@@ -413,20 +413,17 @@ footer li {
 
     .contact-us .socmed {
         margin: auto;
-        margin-bottom: 6vh;
+        margin-bottom: 5vh;
     }
     
     .contact-us .phone {
         border-left: none;
         border-right: none;
-        margin-bottom: 3vh;
+        margin-bottom: 2vh;
     }
     
     .contact-us .location {
         margin-bottom: 2vh;
-    }
-
-    .contact-us .location {
         width: 30px;
         height: 30px;
         margin-left: auto;
