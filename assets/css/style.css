@@ -378,7 +378,7 @@ footer li {
     }
 
     footer .socmed {
-        margin-bottom: 3vh;
+        margin: 3vh 0;
     }
 
     footer .copyright {
@@ -413,7 +413,7 @@ footer li {
 
     .contact-us .socmed {
         margin: auto;
-        margin-bottom: 3vh;
+        margin-bottom: 6vh;
     }
     
     .contact-us .phone {
@@ -424,6 +424,13 @@ footer li {
     
     .contact-us .location {
         margin-bottom: 2vh;
+    }
+
+    .contact-us .location {
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-us .d-flex {
