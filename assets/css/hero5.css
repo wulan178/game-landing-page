@@ -1,0 +1,88 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.hero h1 {
+    line-height: 77px;
+    font-size: 50px;
+    width: 60%;
+}
+
+.hero h6 {
+    color: var(--primary);
+}
+
+.hero p {
+    font-size: 16px;   
+    line-height: 32px;
+    width: 65%;
+}
+
+.btnPrimary {
+    background-color: var(--primary);
+}
+
+.hero-stick {
+    margin-top: -20vh;
+    margin-right: -6vw;
+}
+
+.hero-icon1 {
+    margin-left: -36vw;
+    margin-top: 10vh;
+}
+
+.hero-icon2 {
+    margin-left: -15vw;
+    margin-top: 12vh;
+}
+
+.hero-icon3 {
+    margin-left: -50vw;
+    margin-top: 38vh;
+}
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    .hero {
+        padding: 4vh 4vw;
+    }
+
+    .hero h1 {
+        line-height: 60px;
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .hero p {
+        width: 100%;
+        margin-top: 2vh 0;
+    }
+
+    .hero .btnPrimary {
+        padding: 3% 6%;
+        margin-top: 2vh;
+    }
+    
+    .hero-stick {
+        display: none;
+    }
+    
+    .hero-icon1, .hero-icon2, .hero-icon3 {
+        display: none;
+    }
+}

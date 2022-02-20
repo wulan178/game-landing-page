@@ -1,0 +1,50 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.trend .btn {
+    background: #FFFFFF1C;
+    ;
+}
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .trend {
+        padding: 4vh 4vw;
+        text-align: center;
+    }
+
+    .trend h2 {
+        line-height: 35px;
+        margin-bottom: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .trend .btnTrend {
+        display: none;
+    }
+
+    .btnTrend2 {
+        padding: 3%;
+        width: 90vw;
+    }
+
+    .trend-img {
+        width: 92vw;
+    }
+}

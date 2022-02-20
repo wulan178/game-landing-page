@@ -1,0 +1,49 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li {
+    line-height: 29px;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    footer {
+        padding: 4vh 4vw;
+        padding-bottom: 0;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer .socmed {
+        margin: 3vh 0;
+    }
+
+    footer .copyright {
+        padding: 3vh 0;
+    }
+}
+

@@ -1,0 +1,76 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.subscribe {
+    background-color: #1C140F;
+}
+
+.subscribe .row {
+    border-radius: 15px;
+    background-color: #1B1B1B;
+    margin-top: 74px;
+}
+
+.subscribe h4 {
+    font-size: 30px;
+}
+
+.subscribe p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.subscribe-form {
+    width: 75%;
+}
+
+.subscribe-form input {
+    border-radius: 8px;
+    height: 48px;
+}
+
+.subscribe-form button {
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .subscribe {
+        background-color: #1B1B1B;
+        padding: 4vh 4vw;
+    }
+    
+    .subscribe .row {
+        margin-top: 4vh;
+    }
+    
+    .subscribe h4 {
+        font-size: 26px;
+    }
+    
+    .subscribe p {
+        font-size: 14px;
+    }
+    
+    .subscribe-form {
+        width: 100%;
+        margin-top: 2vh;
+    }
+}

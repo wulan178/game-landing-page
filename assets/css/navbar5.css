@@ -1,0 +1,59 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-item {
+    z-index: 2;
+}
+
+.btnPrimary {
+    background-color: var(--primary);
+}
+
+.nav-link.active, .nav-link:hover {
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0;
+}
+
+.nav-link.btnPrimary:hover {
+    border-bottom: none;
+}
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    nav {
+        padding: auto 1vw;
+    }
+
+    nav .btnPrimary {
+        margin-top: 2vh;
+        padding: 2% auto;
+    }
+
+    .navbar-toggler {
+        z-index: 2;
+    }
+
+    .nav-link.active {
+        width: max-content;;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
