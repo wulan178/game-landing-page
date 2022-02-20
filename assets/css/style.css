@@ -1,0 +1,437 @@
+:root {
+    --primary: #FA9021;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* NAVBAR */
+
+.nav-item {
+    z-index: 2;
+}
+
+.btnPrimary {
+    background-color: var(--primary);
+}
+
+.nav-link.active {
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0;
+}
+
+/* HERO */
+
+.hero h1 {
+    line-height: 77px;
+    font-size: 50px;
+    width: 60%;
+}
+
+.hero h6 {
+    color: var(--primary);
+}
+
+.hero p {
+    font-size: 16px;   
+    line-height: 32px;
+    width: 65%;
+}
+
+.hero-stick {
+    margin-top: -20vh;
+    margin-right: -6vw;
+}
+
+.hero-icon1 {
+    margin-left: -36vw;
+    margin-top: 10vh;
+}
+
+.hero-icon2 {
+    margin-left: -15vw;
+    margin-top: 12vh;
+}
+
+.hero-icon3 {
+    margin-left: -50vw;
+    margin-top: 38vh;
+}
+
+/* TREND */
+
+.trend .btn {
+    background: #FFFFFF1C;
+    ;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+    background: #1C140F;
+}
+
+.testimonial h2 {
+    font-size: 35px;
+    line-height: 50px;
+    width: 450px;
+}
+
+.testimonial .testimonial-desc {
+    width: 500px;
+}
+
+.testimonial .card {
+    padding: 30px;
+    border-radius: 10px;
+    height: 240px;
+}
+
+.testimonial .card.active {
+    background: #0F0901;
+    border: 2px solid var(--primary);
+}
+
+.testimonial h5 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.testimonial .carousel-control-next  img {
+    background: var(--primary);
+    padding: 21px;
+    border-radius: 50%;
+}
+
+.testimonial .carousel-controls {
+    width: 7%;
+    margin-left: 90%;
+    margin-top: 8%;
+}
+
+.testimonial .carousel-indicators {
+    width: max-content;
+}
+
+.testimonial .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+    background-color: #1C140F;
+}
+
+.subscribe .row {
+    border-radius: 15px;
+    background-color: #1B1B1B;
+    margin-top: 74px;
+}
+
+.subscribe h4 {
+    font-size: 30px;
+}
+
+.subscribe p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.subscribe-form {
+    width: 75%;
+}
+
+.subscribe-form input {
+    border-radius: 8px;
+    height: 48px;
+}
+
+.subscribe-form button {
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+
+footer p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li {
+    line-height: 29px;
+}
+
+
+/* Contact us */
+
+.contact-us h2 {
+    font-size: 33px;
+    line-height: 56px;
+}
+
+.contact-us p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contact-us .phone {
+    min-height: 13vh;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 100%;
+}
+
+
+
+/* Moile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    /* NAVBAR */
+    
+    nav {
+        padding: auto 1vw;
+    }
+
+    nav .btnPrimary {
+        margin-top: 2vh;
+        padding: 2% auto;
+    }
+
+    .navbar-toggler {
+        z-index: 2;
+    }
+
+    .nav-link.active {
+        width: max-content;;
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    
+    /* HERO */
+    
+    .hero {
+        padding: 4vh 4vw;
+    }
+
+    .hero h1 {
+        line-height: 60px;
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .hero p {
+        width: 100%;
+        margin-top: 2vh 0;
+    }
+
+    .hero .btnPrimary {
+        padding: 3% 6%;
+        margin-top: 2vh;
+    }
+    
+    .hero-stick {
+        display: none;
+    }
+    
+    .hero-icon1, .hero-icon2, .hero-icon3 {
+        display: none;
+    }
+
+
+    /* TREND */
+
+    .trend {
+        padding: 4vh 4vw;
+        text-align: center;
+    }
+
+    .trend h2 {
+        line-height: 35px;
+        margin-bottom: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .trend .btnTrend {
+        display: none;
+    }
+
+    .btnTrend2 {
+        padding: 3%;
+        width: 90vw;
+    }
+
+    .trend-img {
+        width: 92vw;
+    }
+
+    /* SERVICES */
+
+    .services {
+        padding: 4vh 4vw;
+    }
+
+    .services-hero {
+        max-width: 92vw;
+        margin-bottom: 3vh;
+    }
+
+    .services li {
+        margin-bottom: 2vh;
+    }
+    
+
+    /* TESTIMONIAL */
+    
+    .testimonial {
+        padding: 4vh 4vw;
+    }
+    
+    .testimonial h2 {
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 90vw;
+    }
+    
+    .testimonial .testimonial-desc {
+        max-width: 90vw;
+    }
+
+    .testimonial .card.hidden  {
+        display: none;
+    }
+    
+    .testimonial .card {
+        padding: 5%;
+        margin: 2vh 0;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
+    }
+
+    .testimonial h5 {
+        font-size: 16px;
+    }
+
+    .testimonial .carousel-controls {
+        display: none;
+    }
+    
+    .testimonial .carousel-indicators {
+        margin: auto;
+    }
+    
+    /* SUBSCRIBE */
+    
+    .subscribe {
+        background-color: #1B1B1B;
+        padding: 4vh 4vw;
+    }
+    
+    .subscribe .row {
+        margin-top: 4vh;
+    }
+    
+    .subscribe h4 {
+        font-size: 26px;
+    }
+    
+    .subscribe p {
+        font-size: 14px;
+    }
+    
+    .subscribe-form {
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+
+
+    
+    /* FOOTER */
+    
+    footer {
+        padding: 4vh 4vw;
+        padding-bottom: 0;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer .socmed {
+        margin: 3vh 0;
+    }
+
+    footer .copyright {
+        padding: 3vh 0;
+    }
+    
+    /* Contact us */
+    
+    .contact-us {
+        padding: 4vh 4vw;
+        padding-bottom: 0;
+    }
+
+    .contact-us h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .contact-us p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .contact-us .global {
+        max-width: 90vw;
+        margin: 2vh auto;
+    }
+
+    .contact-us .row {
+        margin-top: 4vh;
+    }
+
+    .contact-us .socmed {
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+    
+    .contact-us .phone {
+        border-left: none;
+        border-right: none;
+        margin-bottom: 2vh;
+    }
+    
+    .contact-us .location {
+        margin-bottom: 2vh;
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-us .d-flex {
+        flex-direction: column;
+    }
+
+}
