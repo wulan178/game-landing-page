@@ -164,6 +164,10 @@ body::-webkit-scrollbar {
 
 /* FOOTER */
 
+footer {
+    background: rgba(0, 0, 0, 0.89);
+}
+
 footer p {
     font-size: 16px;
     line-height: 24px;
@@ -195,7 +199,7 @@ footer li {
 
 
 
-/* Moile Responsive */
+/* Mobile Responsive */
 
 @media (min-width: 320px) and (max-width: 600px) {
     
@@ -361,29 +365,6 @@ footer li {
         width: 100%;
         margin-top: 2vh;
     }
-
-
-
-    
-    /* FOOTER */
-    
-    footer {
-        padding: 4vh 4vw;
-        padding-bottom: 0;
-    }
-
-    footer p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    footer .socmed {
-        margin: 3vh 0;
-    }
-
-    footer .copyright {
-        padding: 3vh 0;
-    }
     
     /* Contact us */
     
@@ -404,11 +385,12 @@ footer li {
 
     .contact-us .global {
         max-width: 90vw;
-        margin: 2vh auto;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
     }
 
     .contact-us .row {
-        margin-top: 4vh;
+        display: none;
     }
 
     .contact-us .socmed {
@@ -433,5 +415,26 @@ footer li {
     .contact-us .d-flex {
         flex-direction: column;
     }
+        
+    
+    /* FOOTER */
+    
+    footer {
+        padding: 4vh 4vw;
+        padding-bottom: 0;
+    }
 
+    footer p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer .socmed {
+        margin: 3vh 0;
+    }
+    
+    footer .copyright {
+        padding: 3vh 0;
+    }
+    
 }

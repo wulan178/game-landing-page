@@ -53,11 +53,12 @@ body::-webkit-scrollbar {
 
     .contact-us .global {
         max-width: 90vw;
-        margin: 2vh auto;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
     }
 
     .contact-us .row {
-        margin-top: 4vh;
+        display: none;
     }
 
     .contact-us .socmed {
